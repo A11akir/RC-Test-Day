@@ -1,0 +1,63 @@
+.default-button {
+}
+
+.default-button:hover {
+    scale: 1.05 1.05;
+}
+
+.building-window-hide {
+    flex-grow: 0;
+    bottom: -200px;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(55, 55, 55, 0.55);
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    align-items: center;
+    top: auto;
+    left: auto;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.building-window-show {
+    bottom: 0;
+}
+
+.text-default {
+    position: absolute;
+    left: 355px;
+    -unity-font-definition: url("project://database/Assets/Content/Font/DigitalPixel-Regular.otf?fileID=12800000&guid=6112252f5714daf418faf5bd5d4eb2bd&type=3#DigitalPixel-Regular");
+    -unity-font-style: bold;
+    top: 150px;
+    font-size: 20px;
+}
+
+.head-window-up {
+    flex-grow: 0;
+    background-color: rgb(55, 55, 55);
+    width: 1900px;
+    height: 180px;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 10px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    left: auto;
+    transition-duration: 1s;
+}
+
+.head-window-down {
+    bottom: -192px;
+}
+
+.building-window-full-hide {
+    bottom: -400px;
+}
