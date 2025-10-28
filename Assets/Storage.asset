@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Storage
   m_EditorClassIdentifier: 
   prefab: {fileID: 13192840253088865, guid: 011537c1a4e6cbe4590d9e0390c709c0, type: 3}
-  size: {x: 3, y: 2}
+  sizeWorld: {x: 3, y: 2}
+  sizeSprite: {x: 0, y: 0}
+  buildingType: 0
+  CostUpgrade: 500
+  Level: 0

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/buildings.uss?fileID=7433441132597879392&amp;guid=2e27d2f7051f76d4282f90f5ac7f6fab&amp;type=3#buildings" />
+    <ui:Button text="Settings" name="Button" class="buildings-button" />
+</ui:UXML>

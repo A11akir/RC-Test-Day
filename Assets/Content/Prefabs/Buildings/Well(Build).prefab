@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9109780289975576416}
+  - component: {fileID: 4026994118042987863}
   m_Layer: 0
   m_Name: Well(Build)
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   - {fileID: 822747391415711758}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4026994118042987863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13192840253088865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0baec9d02f7297a4db41d8136399ad7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteRenderer: {fileID: 704572494916837241}
 --- !u!1 &249922689183790463
 GameObject:
   m_ObjectHideFlags: 0

@@ -54,10 +54,20 @@
     transition-duration: 1s;
 }
 
-.head-window-down {
-    bottom: -192px;
-}
-
 .building-window-full-hide {
     bottom: -400px;
+}
+
+.menu-button {
+    position: absolute;
+    top: 393px;
+    left: 610px;
+    height: 120px;
+    width: 80px;
+    background-color: rgba(188, 188, 188, 0);
+}
+
+.head-window-down {
+    justify-content: center;
+    bottom: -256px;
 }

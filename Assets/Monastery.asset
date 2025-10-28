@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: Monastery
   m_EditorClassIdentifier: 
   prefab: {fileID: 8853482660511666005, guid: 6ea83a90f5f725b4f9c9654d3d0731b7, type: 3}
-  size: {x: 1, y: 1}
+  sizeWorld: {x: 1, y: 1}
+  sizeSprite: {x: 1, y: 2}
   buildingType: 2
+  CostUpgrade: 2000
+  Level: 0

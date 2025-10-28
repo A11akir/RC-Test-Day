@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: Mine
   m_EditorClassIdentifier: 
   prefab: {fileID: 9137872423585649922, guid: 2d836a0ee8c70f946bbac517642d7ce0, type: 3}
-  size: {x: 1, y: 1}
+  sizeWorld: {x: 1, y: 1}
+  sizeSprite: {x: 1, y: 1}
   buildingType: 1
+  CostUpgrade: 1000
+  Level: 0

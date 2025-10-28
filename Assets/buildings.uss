@@ -1,0 +1,24 @@
+.buildings-button {
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    height: 65px;
+    width: 111px;
+    background-color: rgba(40, 78, 18, 0.41);
+    -unity-font-definition: url("project://database/Assets/Content/Font/DigitalPixel-Regular.otf?fileID=12800000&guid=6112252f5714daf418faf5bd5d4eb2bd&type=3#DigitalPixel-Regular");
+    font-size: 10px;
+    border-left-color: rgb(67, 106, 48);
+    border-top-color: rgb(67, 106, 48);
+    border-right-color: rgb(67, 106, 48);
+    border-bottom-color: rgb(67, 106, 48);
+    opacity: 1;
+    scale: 1 1;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.buildings-button:hover {
+    scale: 1 1;
+}

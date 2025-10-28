@@ -18,17 +18,20 @@ public class CheckerboardBackground : MonoBehaviour
     private void Awake()
     {
         GenerateCheckerboard();
-        
-        if (tilemap != null)
-        {
-            BoundsInt bounds = tilemap.cellBounds;
-            int width = bounds.size.x;
-            int height = bounds.size.y;
-
-            _gridMap = new GridMap(width, height);
-        }
     }
 
+    
+    public void ForceInitGridMap()
+    {
+        if (_gridMap != null) return;
+
+        BoundsInt bounds = tilemap.cellBounds;
+        int width = bounds.size.x;
+        int height = bounds.size.y;
+
+        _gridMap = new GridMap(width, height);
+    }
+    
     private void GenerateCheckerboard()
     {
         if (tilemap == null) return;
